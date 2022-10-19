@@ -16,27 +16,33 @@
 
         var midpointIndex = midpoint - 'A';
 
+        AssignTopPart(midpointIndex);
+        AssignBottomPart(midpointIndex);
+    }
+
+    private void AssignTopPart(int midpointIndex)
+    {
         var currentIndex = 0;
         var indentationBetweenSize = 1;
         while (currentIndex <= midpointIndex)
         {
             if (currentIndex == 0)
             {
-                var indentation = new string(_indentCharacter, midpointIndex);
-                Lines.Add($"{indentation}{Alphabet[currentIndex]}{indentation}");
+                Lines.Add(FirstLine(midpointIndex, currentIndex));
             }
             else
             {
-                var indentationOutside = new string(_indentCharacter, midpointIndex - currentIndex);
-                var indentationBetween = new string(_indentCharacter, indentationBetweenSize);
-                Lines.Add($"{indentationOutside}{Alphabet[currentIndex]}{indentationBetween}{Alphabet[currentIndex]}{indentationOutside}");
+                Lines.Add(NextLine(midpointIndex, currentIndex, indentationBetweenSize));
                 indentationBetweenSize += 2;
             }
 
             currentIndex++;
         }
+    }
 
-        currentIndex = midpointIndex - 1;
+    private void AssignBottomPart(int midpointIndex)
+    {
+        var currentIndex = midpointIndex - 1;
         while (currentIndex >= 0)
         {
             Lines.Add(Lines[currentIndex]);
@@ -44,6 +50,16 @@
         }
     }
 
-    public List<string> GetLines()
-        => Lines;
+    private string FirstLine(int midpointIndex, int currentIndex)
+    {
+        var indentation = new string(_indentCharacter, midpointIndex);
+        return $"{indentation}{Alphabet[currentIndex]}{indentation}";
+    }
+
+    private string NextLine(int midpointIndex, int currentIndex, int indentationBetweenSize)
+    {
+        var indentationOutside = new string(_indentCharacter, midpointIndex - currentIndex);
+        var indentationBetween = new string(_indentCharacter, indentationBetweenSize);
+        return $"{indentationOutside}{Alphabet[currentIndex]}{indentationBetween}{Alphabet[currentIndex]}{indentationOutside}";
+    }
 }

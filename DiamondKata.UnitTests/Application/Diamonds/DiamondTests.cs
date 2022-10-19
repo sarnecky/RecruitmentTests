@@ -23,7 +23,7 @@ public class DiamondTests
 
         diamond.Create('A');
 
-        var lines = diamond.GetLines();
+        var lines = diamond.Lines;
         lines.Should().HaveCount(1);
         lines.First().Should().Be("A");
     }
@@ -35,7 +35,7 @@ public class DiamondTests
 
         diamond.Create('B');
 
-        var lines = diamond.GetLines();
+        var lines = diamond.Lines;
         lines.Should().HaveCount(3);
         lines[0].Should().Be(" A ");
         lines[1].Should().Be("B B");
@@ -49,7 +49,7 @@ public class DiamondTests
 
         diamond.Create('C');
 
-        var lines = diamond.GetLines();
+        var lines = diamond.Lines;
         lines.Should().HaveCount(5);
         lines[0].Should().Be("  A  ");
         lines[1].Should().Be(" B B ");
