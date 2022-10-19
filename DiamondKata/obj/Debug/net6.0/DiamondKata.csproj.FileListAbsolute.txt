@@ -1,0 +1,15 @@
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\DiamondKata.exe
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\DiamondKata.deps.json
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\DiamondKata.runtimeconfig.json
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\DiamondKata.dll
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\ref\DiamondKata.dll
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\bin\Debug\net6.0\DiamondKata.pdb
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.csproj.AssemblyReference.cache
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.AssemblyInfoInputs.cache
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.AssemblyInfo.cs
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.csproj.CoreCompileInputs.cache
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.dll
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\ref\DiamondKata.dll
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.pdb
+C:\work\RecruitmentTask\RecruitmentTests\DiamondKata\obj\Debug\net6.0\DiamondKata.genruntimeconfig.cache

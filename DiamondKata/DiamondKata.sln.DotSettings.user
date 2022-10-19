@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8d099720_002Df41e_002D4b0f_002Db4c2_002D52c7a3e2bda7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Create_MidpointNotExists_ThrowException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F26C97A7-0A67-4795-975D-76DED3D7986D::net6.0::DiamondTests.Create_MidpointNotExists_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F26C97A7-0A67-4795-975D-76DED3D7986D::net6.0::DiamondTests.Create_MidpointIsA_ReturnOneLineWithA&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F26C97A7-0A67-4795-975D-76DED3D7986D::net6.0::DiamondTests.Create_MidpointIsB_ReturnThreeLinesDiamond&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F26C97A7-0A67-4795-975D-76DED3D7986D::net6.0::DiamondTests.Create_MidpointIsC_ReturnFiveLinesDiamond&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
